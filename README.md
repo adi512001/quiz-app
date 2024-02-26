@@ -1,46 +1,24 @@
-# Getting Started with Create React App
+# Frontend quiz app 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A Multi-Step Quiz that presents questions, answers, and the final score.
 
-## Available Scripts
+1. Model a structure that contains the quiz data. A quiz holds 5 “Questions”, each
+question has 4 possible answers and specifies the correct answer.
+2. Create an app that uses the quiz data, and displays each question with its
+potential answers on a separate page.
+3. On each question page, display the “Next” and “Previous” buttons.
+a. On the first page - do not show the “Previous” button.
+b. When navigating between questions, show the question with the selected
+answer by the user.
+c. The “Next” button should be disabled until the user chooses an answer.
+d. On the last question - Replace the “Next” button text with “Submit”
+e. When clicking on “Submit” - move to the “Scores” page.
+4. Create a “Scores” page that displays the user’s score from 0 to 100, based on
+the correctly answered questions. e.g. 4 correct answers should show 80.
+5. Include tests that verify the app’s correctness.
 
-In the project directory, you can run:
+# Local run
+1. `npm install` `npm start`
+2. View the project locally at http://localhost:3000
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+![image info](./pictures/services-graph.png)
