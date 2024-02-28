@@ -19,6 +19,9 @@ A Multi-Step Quiz that presents questions, answers, and the final score.
 
 # Local run
 
+You can view the app live on: https://quiz-app-amber-beta.vercel.app/
+<br>
+To run locally:
 1. `npm install` `npm start`
 2. View the project locally at http://localhost:3000
 
